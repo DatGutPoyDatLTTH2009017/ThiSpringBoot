@@ -16,10 +16,5 @@ public class EmployeeService {
     public Employee save(Employee employee){
         return employeeRepository.save(employee);
     }
-
     public List<Employee> findAll(){return employeeRepository.findAll();}
-
-    public Optional<Employee> findById(int id){return employeeRepository.findById(id);}
-
-    public void deleteById(int id){employeeRepository.deleteById(id);}
 }

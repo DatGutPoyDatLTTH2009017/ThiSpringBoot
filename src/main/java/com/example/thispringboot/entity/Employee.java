@@ -17,5 +17,5 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.IDENTITY)//
     private int id;
     private String name;
-    private Double wage;
+    private double wage;
 }
